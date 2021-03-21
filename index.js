@@ -12,4 +12,4 @@ hexo.extend.console.register('issues', '获取您在github的评论并生成友�
     name: '-f --fork',
     desc: '覆盖更新链接！'
   }]
-}, (options, callback) => require("./lib")(hexo, options, callback))
+},async (options, callback) => await require("./lib")(hexo, options, callback))
