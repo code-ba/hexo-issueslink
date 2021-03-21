@@ -1,0 +1,26 @@
+{
+  "name": "hexo-issueslink",
+  "version": "1.0.0",
+  "description": "hexo github repos tolink",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hexo",
+    "github",
+    "repos",
+    "link"
+  ],
+  "author": "Baran",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-ba/hexo-issueslink.git"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "colors": "^1.4.0",
+    "yamljs": "^0.3.0"
+  }
+}
