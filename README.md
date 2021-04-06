@@ -1,8 +1,8 @@
 获取您在`github`的评论并生成`hexo`的友情链接！
-![hexo-issueslink](https://img.shields.io/github/forks/code-ba/hexo-issueslink?label=Fork&style=social)
+![hexo-issueslink](https://img.shields.io/github/forces/code-ba/hexo-issueslink?label=force&style=social)
 
 ### 安装
-默认支持主题`butterfly`，如果是其它的主题，自己`fork`代码改下即可。
+默认支持主题`butterfly`，如果是其它的主题，自己`Fork`代码改下即可。
 - 安装`npm i -D hexo-issueslink` or `cnpm i -D hexo-issueslink` or `yarn add hexo-issueslink -D`
 
 ### 配置
@@ -14,7 +14,7 @@
 - `hexo issues`默认生成友情链接
 - `hexo issues -u 评论ID` or `hexo issues --update 6`更新单独一条链接
 - `hexo issues -c` or `hexo issues --clear`清除缓存
-- `hexo issues -f` or `hexo issues --fork`清除缓存并生成友情链接
+- `hexo issues -f` or `hexo issues --force`清除缓存并生成友情链接
 
 ### 评论格式
 ```yml

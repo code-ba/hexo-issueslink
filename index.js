@@ -9,7 +9,7 @@ hexo.extend.console.register('issues', '获取您在github的评论并生成友�
     name: '-c --clear',
     desc: '清理掉所有友链！'
   }, {
-    name: '-f --fork',
+    name: '-f --force',
     desc: '覆盖更新链接！'
   }]
 },async (options, callback) => await require("./lib")(hexo, options, callback))
